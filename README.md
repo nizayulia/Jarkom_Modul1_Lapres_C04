@@ -30,16 +30,20 @@
 **Sebutkan webserver yang digunakan pada "testing.mekanis.me"!**
 - Masukkan display filter  ` http.host == testing.mekanis.me `  
 - Lalu ` klik kanan-> follow-> http stream `
- 
+  
+![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture1.png?raw=true) 
 
+![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture2.png?raw=true) 
 
-
+Disitu dapat dilihat bahwa servernya adalah `ngix/1.14.0 (Ubuntu)`
 <br>
 
 
 ### Soal 2 
 **Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!**
-
+- Klik `file -> export object -> http` 
+- Lalu pada kolom search masukkan `Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg`
+![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture4.png?raw=true)
 <br>
 
 ### Soal 3 
