@@ -32,10 +32,11 @@
 - Lalu ` klik kanan-> follow-> http stream `
   
   ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture1.png?raw=true) 
+- Disitu dapat dilihat bahwa servernya adalah `ngix/1.14.0 (Ubuntu)`
   
   ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture2.png?raw=true) 
 
-  Disitu dapat dilihat bahwa servernya adalah `ngix/1.14.0 (Ubuntu)`
+
 <br>
 
 
@@ -53,14 +54,15 @@
 ### Soal 3 
 **Cari username dan password ketika login di "ppid.dpr.go.id"!**
 - Masukkan display filter `http.host contains "ppid.dpr.go.id" && http.request.method == POST`
-- 
+  
   ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture5.png?raw=true)
-Didapatkan hasil username : `10pemuda` dan password : `guncangdunia`
+- Didapatkan hasil username : `10pemuda` dan password : `guncangdunia`
 <br>
 
 ### Soal 4 
 **Temukan paket dari web-web yang menggunakan basic authentication method!**
 - Masukkan display filter `http.authbasic`
+- Dapat dilihat daftar paket yang menggunakan basic authentication
   
   ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture6.png?raw=true)
 <br>
@@ -94,7 +96,7 @@ Didapatkan hasil username : `10pemuda` dan password : `guncangdunia`
 
 ### Soal 10 
 **Cari file .pdf di wireshark lalu download dan buka file tersebut! clue: "25 50 44 46"** 
-- Masukkan display filter `frame contains “application/pdf”` 
+- Masukkan display filter `frame contains "application/pdf"` 
 - Atau dapat juga dengan `frame contains 25:50:44:46` 
 - Lalu `klik kanan-> follow -> TCP Stream`
   
@@ -113,10 +115,10 @@ Didapatkan hasil username : `10pemuda` dan password : `guncangdunia`
 - Pilih `Adapter for loopback traffic capture`
 - Lalu masukkan `port 21` pada capture filter
   
-  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture11.png?raw=true)
+  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture12.png?raw=true)
 - Berikut ini adalah daftar paket yang maengandung port 21
   
-  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture12.png?raw=true)
+  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture13.png?raw=true)
   <br>
 
 ### Soal 12
@@ -124,10 +126,10 @@ Didapatkan hasil username : `10pemuda` dan password : `guncangdunia`
 - Pilih `Wifi`
 - Lalu masukkan `src port 80` pada capture filter
   
-  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture13.png?raw=true)
+  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture14.png?raw=true)
 - Berikut adalah daftar paket yang berasal dari port 80 :
   
-  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture14.png?raw=true)
+  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Picture15.png?raw=true)
 ### Soal 13
 ### Soal 14
 ### Soal 15
