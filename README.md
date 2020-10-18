@@ -83,16 +83,16 @@
 **Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).**
 - Mencari file "Answer.zip" dengan masukkan display filter `ftp-data contains "Answer.zip"`
   
-  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Capture_6_1.png?raw=true)
+  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Capture_6_1.PNG?raw=true)
 - Simpan file dengan `klik kanan -> Follow -> TCP Stream`. Jangan lupa untuk mengubah `Show and save data as Raw`.
   
   ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Capture_6_2.png?raw=true)
 - Untuk mendapatkan password untuk membuka file "Answer.zip", cari file "zipkey.txt" dengan masukkan display filter `ftp-data contains "zipkey.txt"`
 
-  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Capture_6_3.png?raw=true)
+  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Capture_6_3.PNG?raw=true)
 - Buka file dengan `klik kanan -> Follow -> TCP Stream`
 
-  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Capture_6_4.png?raw=true)
+  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Capture_6_4.PNG?raw=true)
 - Buka file "Answer.zip".
 
   ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Capture_6_5.png?raw=true)
@@ -121,18 +121,18 @@
 **Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!**
 - Masukkan display filter `ftp.request.command == RETR && ip.dst == 198.246.117.106`
   
-  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Capture_8.png?raw=true)
+  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Capture_8.PNG?raw=true)
 <br>
 
 ### Soal 9 
 **Cari username dan password ketika login FTP pada localhost!**
 - Untuk mendapatkan username, masukkan display filter `ftp.request.command == USER`
   
-  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Capture_9_2.png?raw=true)
+  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Capture_9_2.PNG?raw=true)
 - Didapat username `dhana`.
 - Untuk mendapatkan password, masukkan display filter `ftp.request.command == PASS`
   
-  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Capture_9_1.png?raw=true)
+  ![alt text](https://github.com/nizayulia/Jarkom_Modul1_Lapres_C04/blob/main/Assets/Capture_9_1.PNG?raw=true)
 - Didapat password untuk usernama `dhana` adalah `dhana123`.
 <br>
 
